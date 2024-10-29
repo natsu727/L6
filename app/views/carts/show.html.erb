@@ -5,4 +5,5 @@
     個数 : <%= c.qty %>  <%= link_to "削除", cart_item_path(c) ,data: { turbo_method: :delete } %>
     <br/>
 <% end %>
+合計金額 : <%= @total %>円<br>
 <%= link_to "戻る","/" %>
